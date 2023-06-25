@@ -1,22 +1,5 @@
-# express-typescript-boilerplate
-If you want to quick start with Express API Server with TypeScript and other configurations, Just clone and run this project.
+# Todo App Server 
+App server is written with ExpressJS and MongoDB. This contains authentication and todo CURD operation APIs.
 
-## Including
-* Express
-* TypeScript
-* EsLint
-* TS Config
-* Nodemon
-* dotenv
-
-## Install Dependencies
-`npm i`
-
-## Run Dev Server
-`npm run dev` - Start development server, refresh server on any change in files
-
-## Build App
-`npm run build`
-
-## Start Server 
-`npm start` - This will start server from generated build# todo-server
+## API Documentations
+Postman Doc -> https://documenter.getpostman.com/view/8541377/2s93z6ejTt
