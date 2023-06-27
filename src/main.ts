@@ -2,10 +2,12 @@ import express from "express";
 import bodyParser from "body-parser";
 import router from "./Router";
 import { configs } from "./configs/configs";
+import cors from 'cors';
 import { createDBConnection } from "./database/dbConnector";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 /** Parse form data */
 app.use(bodyParser.json({ limit: "50mb" }));
